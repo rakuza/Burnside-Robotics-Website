@@ -1,11 +1,31 @@
+@font-face {
+    font-family: "Product Sans Bold";
+    src: url("/Front/Assets/Fonts/Product\ Sans\ Bold.ttf");
+}
+
+@font-face {
+    font-family: "Product Sans Regular";
+    src: url("/Front/Assets/Fonts/Product\ Sans\ Regular.ttf");
+}
+
+@font-face {
+    font-family: "Product Sans Medium";
+    src: url("/Front/Assets/Fonts/Product\ Sans\ Medium\ 500.ttf");
+}
+
 body {
     margin: 0;
-    overflow: overlay
+    overflow: overlay;
+    background-color: #E7E9F1;
 }
 
 header {
     height: 120px;
     backdrop-filter: blur(25px);
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
 }
 
 #HeaderLogo {
@@ -26,19 +46,48 @@ header {
     left: 50%;
     top: 73%;
     transform: translate(-50%, -50%);
+    z-index: 0;
 }
 
 #GearZone {
     background-color: #E7E9F1;
     height: 100vh;
+    margin-top: -20px;
 }
 
 .ArticleBox {
+    margin-top: 30px;
     background-color: #DDE0ED;
+    margin: 70px;
+    margin-top: 300px;
+    padding: 50px;
+    border-radius: 30px;
+}
+
+.ArticleHeading {
+    font-family: "Product Sans Medium";
+    font-style: normal;
+    font-size: 30pt;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.RotateGear {
+    position: absolute;
+    z-index: -1;
+}
+
+#RightTopGear {
+    left: 100%;
+    top: 150%;
+    transform: translate(-50%, -50%);
+    opacity: 10%;
 }
 
 p {
-    margin: 0;
+    font-size: 30pt;
+    font-style: normal;
+    font-family: "Product Sans Regular";
 }
 
 #NavBar {}
