@@ -1,25 +1,46 @@
 body {
-  margin: 0;
+    margin: 0;
+    overflow: overlay
 }
 
 header {
-  height: 90px;
-  backdrop-filter: blur(25px);
+    height: 120px;
+    backdrop-filter: blur(25px);
 }
 
 #HeaderLogo {
-  height: 70px;
-
-  margin-top: 10px;
-  margin-left: 30px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 30px;
 }
+
 #MainPhoto {
-  width: 100%;
-  margin-top: -90px;
+    height: 90vh;
+    margin-top: -120px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(231, 233, 241, 50), rgba(231, 233, 241, 100)), url("/Front/Assets/imgs/AirportPhoto.jpg");
 }
 
-#NavBar {
+#WelcomeLogo {
+    width: 30%;
+    position: absolute;
+    left: 50%;
+    top: 73%;
+    transform: translate(-50%, -50%);
 }
 
-#HeaderLink {
+#GearZone {
+    background-color: #E7E9F1;
+    height: 100vh;
 }
+
+.ArticleBox {
+    background-color: #DDE0ED;
+}
+
+p {
+    margin: 0;
+}
+
+#NavBar {}
+
+#HeaderLink {}
