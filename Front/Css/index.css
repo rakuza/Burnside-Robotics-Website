@@ -15,7 +15,7 @@
 
 body {
   margin: 0;
-  overflow: overlay;
+  overflow-x: hidden;
   background-color: #e7e9f1;
 }
 
@@ -37,7 +37,6 @@ header {
 #MainPhoto {
   width: 100vw;
   height: 100vh;
-
   background-image: linear-gradient(
       to top,
       rgba(231, 233, 241, 100),
@@ -62,6 +61,7 @@ header {
 }
 
 #AboutButton {
+  width: 120px;
   position: absolute;
   left: 50%;
   top: 95%;
@@ -69,9 +69,17 @@ header {
   z-index: 0;
 }
 
-#GearZone {
-  background-color: #e7e9f1;
-  height: 100vh;
+#MainBody {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(231, 233, 241),
+    rgb(231, 233, 241),
+    rgb(231, 233, 241),
+    rgb(246, 246, 246),
+    rgb(246, 246, 246),
+    rgb(246, 246, 246)
+  );
+  /*height: 100vh;*/
   margin-top: -20px;
 }
 
@@ -81,13 +89,14 @@ header {
   margin: 70px;
   opacity: 100%;
   padding: 50px;
+  padding-bottom: 30px;
   border-radius: 30px;
 }
 
 .ArticleHeading {
-  font-family: "Product Sans Medium";
+  font-family: "Product Sans Regular";
   font-style: normal;
-  font-size: 30pt;
+  font-size: 25pt;
   margin-top: 20px;
   margin-bottom: 30px;
 }
@@ -95,7 +104,25 @@ header {
 .RotateGear {
   position: absolute;
 }
-
+#VexLogo {
+  width: 20%;
+  padding-left: 40%;
+}
+.VexInfoHeading {
+  font-size: 30pt;
+  font-family: "Product Sans Regular";
+  font-style: normal;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.VexInfoBox {
+  background-color: #f2f2e9;
+  margin: 70px;
+  width: 37.5%;
+  padding: 50px;
+  padding-bottom: 30px;
+  border-radius: 30px;
+}
 #RightTopGear {
   left: 100%;
   top: 150%;
@@ -104,7 +131,7 @@ header {
 }
 
 p {
-  font-size: 30pt;
+  font-size: 20pt;
   font-style: normal;
   font-family: "Product Sans Regular";
 }
