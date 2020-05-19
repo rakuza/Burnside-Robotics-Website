@@ -1,101 +1,116 @@
 @font-face {
-    font-family: "Product Sans Bold";
-    src: url("/Front/Assets/Fonts/Product\ Sans\ Bold.ttf");
+  font-family: "Product Sans Bold";
+  src: url("/Front/Assets/Fonts/Product\ Sans\ Bold.ttf");
 }
 
 @font-face {
-    font-family: "Product Sans Regular";
-    src: url("/Front/Assets/Fonts/Product\ Sans\ Regular.ttf");
+  font-family: "Product Sans Regular";
+  src: url("/Front/Assets/Fonts/Product\ Sans\ Regular.ttf");
 }
 
 @font-face {
-    font-family: "Product Sans Medium";
-    src: url("/Front/Assets/Fonts/Product\ Sans\ Medium\ 500.ttf");
+  font-family: "Product Sans Medium";
+  src: url("/Front/Assets/Fonts/Product\ Sans\ Medium\ 500.ttf");
 }
 
 body {
-    margin: 0;
-    overflow: overlay;
-    background-color: #E7E9F1;
+  margin: 0;
+  overflow: overlay;
+  background-color: #e7e9f1;
 }
 
 header {
-    height: 120px;
-    backdrop-filter: blur(25px);
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    width: 100%;
+  height: 120px;
+  backdrop-filter: blur(25px);
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
 }
 
 #HeaderLogo {
-    height: 100px;
-    margin-top: 10px;
-    margin-left: 30px;
+  height: 100px;
+  margin-top: 10px;
+  margin-left: 30px;
 }
 
 #MainPhoto {
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(231, 233, 241, 50), rgba(231, 233, 241, 100)), url("/Front/Assets/imgs/AirportPhoto.jpg");
+  width: 100vw;
+  height: 100vh;
+
+  background-image: linear-gradient(
+      to top,
+      rgba(231, 233, 241, 100),
+      rgba(231, 233, 241, 50),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    url("/Front/Assets/imgs/AirportPhoto.jpg");
+
+  background-size: 220vw, 200vh;
 }
 
 #WelcomeLogo {
-    width: 30%;
-    position: absolute;
-    left: 50%;
-    top: 73%;
-    transform: translate(-50%, -50%);
+  width: 30%;
+  position: absolute;
+  left: 50%;
+  top: 73%;
+  transform: translate(-50%, -50%);
 }
 
 #AboutButton {
-    position: absolute;
-    left: 50%;
-    top: 95%;
-    transform: translate(-50%, -50%);
-    z-index: 0;
+  position: absolute;
+  left: 50%;
+  top: 95%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
 }
 
 #GearZone {
-    background-color: #E7E9F1;
-    height: 100vh;
-    margin-top: -20px;
+  background-color: #e7e9f1;
+  height: 100vh;
+  margin-top: -20px;
 }
 
 .ArticleBox {
-    margin-top: 30px;
-    background-color: #DDE0ED;
-    margin: 70px;
-    opacity: 100%;
-    padding: 50px;
-    border-radius: 30px;
+  margin-top: 30px;
+  background-color: #dde0ed;
+  margin: 70px;
+  opacity: 100%;
+  padding: 50px;
+  border-radius: 30px;
 }
 
 .ArticleHeading {
-    font-family: "Product Sans Medium";
-    font-style: normal;
-    font-size: 30pt;
-    margin-top: 20px;
-    margin-bottom: 30px;
+  font-family: "Product Sans Medium";
+  font-style: normal;
+  font-size: 30pt;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .RotateGear {
-    position: absolute;
+  position: absolute;
 }
 
 #RightTopGear {
-    left: 100%;
-    top: 150%;
-    transform: translate(-50%, -50%);
-    opacity: 10%;
+  left: 100%;
+  top: 150%;
+  transform: translate(-50%, -50%);
+  opacity: 10%;
 }
 
 p {
-    font-size: 30pt;
-    font-style: normal;
-    font-family: "Product Sans Regular";
+  font-size: 30pt;
+  font-style: normal;
+  font-family: "Product Sans Regular";
 }
 
-#NavBar {}
+#NavBar {
+}
 
-#HeaderLink {}
+#HeaderLink {
+}
