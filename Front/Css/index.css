@@ -75,6 +75,12 @@ header {
     rgb(231, 233, 241),
     rgb(231, 233, 241),
     rgb(231, 233, 241),
+    rgb(231, 233, 241),
+    rgb(231, 233, 241),
+    rgb(231, 233, 241),
+    rgb(246, 246, 246),
+    rgb(246, 246, 246),
+    rgb(246, 246, 246),
     rgb(246, 246, 246),
     rgb(246, 246, 246),
     rgb(246, 246, 246)
@@ -108,6 +114,9 @@ header {
   width: 20%;
   padding-left: 40%;
 }
+.VexInfoArea {
+  margin-bottom: 20px;
+}
 .VexInfoHeading {
   font-size: 30pt;
   font-family: "Product Sans Regular";
@@ -117,11 +126,20 @@ header {
 }
 .VexInfoBox {
   background-color: #f2f2e9;
-  margin: 70px;
-  width: 37.5%;
+  margin: 5.6%;
+  width: 30%;
   padding: 50px;
   padding-bottom: 30px;
   border-radius: 30px;
+  float: left;
+}
+.VexInfoBox p {
+  font-size: 15pt;
+}
+#VexArrow {
+  margin: 2.5%;
+  margin-top: 300px;
+  float: left;
 }
 #RightTopGear {
   left: 100%;
@@ -135,7 +153,19 @@ p {
   font-style: normal;
   font-family: "Product Sans Regular";
 }
-
+#AwardsRobotsHeadings {
+  font-family: "Product Sans Regular";
+  font-style: bold;
+  font-size: 40pt;
+  margin-top: 55%;
+  margin-left: 45%;
+  color: #444444;
+}
+.AwardImages {
+  margin-left: 2.5%;
+  width: 42.5%;
+  float: left;
+}
 #NavBar {
 }
 
