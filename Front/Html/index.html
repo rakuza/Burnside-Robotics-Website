@@ -55,7 +55,11 @@
           skills in a safe, fun environment.
         </p>
       </div>
+    </section>
+    <div id="VexTransition">
       <img src="/Front/Assets/imgs/VexLogo.png" alt="VexLogo" id="VexLogo" />
+    </div>
+    <section id="VexSection">
       <div class="ArticleBox" style="background-color: #f2f2e9;">
         <h1 class="ArticleHeading">WHAT IS VEX?</h1>
         <p>
@@ -72,7 +76,7 @@
         </p>
       </div>
       <div class="VexInfoArea">
-        <div class="VexInfoBox" style="margin-right: 0;">
+        <div class="VexInfoBox">
           <h1 class="VexInfoHeading" style="color: #ff0000;">
             Vex EDR
           </h1>
@@ -89,7 +93,7 @@
         <div id="VexArrow">
           <img src="/Front/Assets/imgs/VexArrow.png" alt="" />
         </div>
-        <div class="VexInfoBox" style="margin-left: 0;">
+        <div class="VexInfoBox">
           <h1 class="VexInfoHeading" style="color: #0080ff;">Vex IQ</h1>
           <p style="font-size: 20pt;">
             Vex IQ is also a robotics system designed for intermediate schools.
@@ -98,15 +102,34 @@
           </p>
         </div>
       </div>
-      <div>
-        <h1 id="AwardsRobotsHeadings">Awards</h1>
-        <img
-          src="/Front/Assets/imgs/FinalistAward.png"
-          alt=""
-          class="AwardImages"
-        />
-        <img src="/Front/Assets/imgs/" alt="" />
+      <h1 id="AwardsRobotsHeadings">Awards</h1>
+      <div id="AwardsSection">
+        <div class="AwardImageDiv">
+          <img
+            src="/Front/Assets/imgs/FinalistAward.png"
+            alt=""
+            id="LeftAward"
+            class="AwardImages"
+          />
+          <div class="AwardText" id="LeftAwardText">
+            Tournament Finalists 2020
+          </div>
+        </div>
+        <img src="/Front/Assets/imgs/Spliter.png" alt="" id="AwardSplitter" />
+        <div class="AwardImageDiv">
+          <img
+            src="/Front/Assets/imgs/CommunityAward.png"
+            alt=""
+            id="RightAward"
+            class="AwardImages"
+          />
+          <div class="AwardText" id="RightAwardText">
+            Community Award 2019
+          </div>
+        </div>
       </div>
+
+      <script src="/Front/Js/OnImageOver.js"></script>
     </section>
     <footer></footer>
   </body>
