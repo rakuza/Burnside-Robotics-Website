@@ -155,7 +155,7 @@ p {
   font-style: normal;
   font-family: "Product Sans Regular";
 }
-#AwardsRobotsHeadings {
+.AwardsRobotsHeadings {
   font-family: "Product Sans Regular";
   font-style: bold;
   font-size: 40pt;
@@ -171,17 +171,12 @@ p {
 .AwardImages {
   width: 30vw;
 }
-.AwardImageDiv {
+.AwardsRobotsImageDiv {
   position: relative;
 }
 #AwardSplitter {
   height: 60px;
   align-self: center;
-}
-.RobotImages {
-  margin-left: 3.5%;
-  width: 42.5%;
-  float: left;
 }
 .AwardText {
   position: absolute;
@@ -194,6 +189,30 @@ p {
   color: white;
   opacity: 0;
   transition-duration: 0.5s;
+}
+#RobotsSection {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.RobotImages {
+  width: 30vw;
+}
+.RobotText {
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  text-align: center;
+  font-size: 20pt;
+  font-family: "Product Sans Regular";
+  font-style: bold;
+  color: white;
+  opacity: 0;
+  transition-duration: 0.5s;
+}
+#TaitLogo {
+  width: 300px;
+  display: block;
 }
 #NavBar {
 }
