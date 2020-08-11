@@ -12,13 +12,14 @@
   font-family: "Product Sans Medium";
   src: url("/Front/Assets/Fonts/Product\ Sans\ Medium\ 500.ttf");
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   overflow-x: hidden;
   background-color: #e7e9f1;
 }
-
 header {
   height: 120px;
   backdrop-filter: blur(25px);
@@ -49,7 +50,7 @@ header {
     ),
     url("/Front/Assets/imgs/AirportPhoto.jpg");
 
-  background-size: 220vw, 200vh;
+  background-size: 200vw, 200vh;
 }
 
 #WelcomeLogo {
@@ -64,11 +65,10 @@ header {
   width: 120px;
   position: absolute;
   left: 50%;
-  top: 95%;
+  top: 92.5%;
   transform: translate(-50%, -50%);
   z-index: 0;
 }
-
 #MainBody {
   background-color: rgb(231, 233, 241);
   /*height: 100vh;*/
@@ -212,7 +212,6 @@ p {
 }
 #TaitLogo {
   width: 300px;
-  display: block;
 }
 #NavBar {
 }
