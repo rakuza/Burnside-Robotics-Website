@@ -10,6 +10,7 @@
       href="/Front/Assets/imgs/Gear.png"
       type="image/x-icon"
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
   <body>
     <header>
@@ -19,12 +20,13 @@
           alt="Burnside Logo"
           id="HeaderLogo"
       /></a>
-      <a href="" class="HeaderLink" style="grid-column: 4;">Home</a>
-      <a href="" class="HeaderLink" style="grid-column: 5;">About</a>
-      <a href="" class="HeaderLink" style="grid-column: 6;">Awards</a>
-      <a href="" class="HeaderLink" style="grid-column: 7;">Sponsors</a>
-      <a href="" class="HeaderLink" style="grid-column: 8;">Contact</a>
-      <a href="" class="HeaderLink" style="grid-column: 9;">Login</a>
+      <a href="#MainPhoto" class="HeaderLink" style="grid-column: 4;">Home</a>
+      <a href="#MainInfoBody" class="HeaderLink" style="grid-column: 5;">About</a>
+      <a href="#VexInfoBody" class="HeaderLink" style="grid-column: 6;">Vex</a>
+      <a href="#AwardsRobotsArea" class="HeaderLink" style="grid-column: 7;">Awards</a>
+      <a href="" class="HeaderLink" style="grid-column: 8;">Sponsors</a>
+      <a href="" class="HeaderLink" style="grid-column: 9;">Contact</a>
+      <a href="" class="HeaderLink" style="grid-column: 10;">Login</a>
 
     </header>
     <section id="MainPhoto">
@@ -87,8 +89,26 @@
         </div>
       </div>
     </section>
+    <section id="AwardsRobotsArea">
+    <h1 class="AwardsRobotsHeader">Awards</h1>
+    <img src="/Front/Assets/imgs/Awards/FinalistAward.png" alt="" class="RobotOrAward" style="grid-column: 2; grid-row: 2;">
+    <img src="/Front/Assets/imgs/Awards/Spliter.png" alt="" id="AwardSplitter">
+    <img src="/Front/Assets/imgs/Awards/CommunityAward.png" alt="" class="RobotOrAward" style="grid-column: 4; grid-row: 2;">
+    <h1 class="AwardsRobotsHeader" style="grid-row: 3;">Robots</h1>
+    <img src="/Front/Assets/imgs/Robots/4067X1Robot.png" id="4067X1" alt="" class="RobotOrAward" style="grid-column: 2; grid-row: 4;">
+    <h1 class="RobotAwardName" id="4067X1Text" style="grid-row: 4; grid-column: 2;">4067X</h1>
+    <img src="/Front/Assets/imgs/Robots/4067ARobot.png" id="4067A1"alt="" class="RobotOrAward" style="grid-column: 4; grid-row: 4;">
+    <h1 class="RobotAwardName" id="4067A1Text" style="grid-row: 4; grid-column: 4;">4067A</h1>
+    <img src="/Front/Assets/imgs/Robots/4067B1Robot.png" id="4067B1" alt="" class="RobotOrAward" style="grid-column: 2; grid-row: 6;">
+    <h1 class="RobotAwardName" id="4067B1Text" style="grid-row: 6; grid-column: 2;">4067B</h1>
+    <img src="/Front/Assets/imgs/Robots/4067X2Robot.png" id="4067X2" alt="" class="RobotOrAward" style="grid-column: 4; grid-row: 6;">
+    <h1 class="RobotAwardName" id="4067X2Text" style="grid-row: 6; grid-column: 4;">4067X - Work In Progress</h1>
+    <img src="/Front/Assets/imgs/Robots/HMRScorpian.png" id="HMRS" alt="" class="RobotOrAward" style="grid-column: 4; grid-row: 6;">
+    <h1 class="RobotAwardName" id="HMRSText" style="grid-row: 8; grid-column: 2;">4067X - Work In Progress</h1>
+
+  </section>
       <script src="/Front/Js/OnImageOver.js"></script>
-    
+      <script src="/Front/Js/ScrollTo.js"></script>
     <footer></footer>
   </body>
 </html>

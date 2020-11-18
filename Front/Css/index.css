@@ -32,14 +32,14 @@ body {
   background-color: #e7e9f1;
 }
 header {
-  height: 16.1vh;
+  height: 13vh;
   backdrop-filter: blur(100px);
   position: fixed;
   z-index: 1;
   top: 0;
   width: 100%;
   display: grid;
-  grid-template-columns: 2% 10% auto repeat(6, 7.5%) 7.5%;
+  grid-template-columns: 2% 10% auto repeat(7, 7.5%) 7.5%;
   grid-template-rows: 10% 80% 10%;
 }
 
@@ -87,7 +87,7 @@ header {
     to bottom,
     #f5f5f6 20%,
     #fffffa 60%,
-    #e7e9f1
+    #f5f5f6
   );
 }
 .MainInfoBox {
@@ -119,6 +119,38 @@ header {
   grid-column: 3;
   align-self: center;
   justify-self: center;
+}
+#AwardsRobotsArea {
+  background-image: linear-gradient(to bottom, #f5f5f6 20%, #e7e9f1 60%);
+  display: grid;
+  grid-template-columns: 10vw 30vw auto 30vw 10vw;
+  grid-template-rows: 10vw 40vw 10vw 30vw 5vw 30vw;
+}
+.AwardsRobotsHeader {
+  grid-column: 1/-1;
+  grid-row: 1;
+  font-size: 5vw;
+  justify-self: center;
+  align-self: center;
+  color: #444444;
+}
+.RobotOrAward {
+  border-radius: 3vw;
+  width: 30vw;
+}
+.RobotAwardName {
+  font-size: 2vw;
+  color: white;
+  justify-self: center;
+  align-self: end;
+  transition-duration: 0.2s;
+  opacity: 0.5;
+}
+#AwardSplitter {
+  grid-column: 3;
+  grid-row: 2;
+  justify-self: center;
+  align-self: center;
 }
 .PageBox {
   border-radius: 3vw;
